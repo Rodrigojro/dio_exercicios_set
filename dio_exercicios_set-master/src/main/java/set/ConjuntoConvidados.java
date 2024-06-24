@@ -47,7 +47,7 @@ public class ConjuntoConvidados {
         conjuntoConvidados.adicionarConvidado("Convidado 6", 5);
         conjuntoConvidados.adicionarConvidado("Convidado 7", 6);
 
-        conjuntoConvidados.removerConvidadoPorCodigoConvite(4);
+        conjuntoConvidados.removerConvidadoPorCodigoConvite(5);
         System.out.println("Existem " + conjuntoConvidados.contarConvidados() + " convidado(s) dentro do Set de convidados!");
 
         conjuntoConvidados.exbirConvidados();
