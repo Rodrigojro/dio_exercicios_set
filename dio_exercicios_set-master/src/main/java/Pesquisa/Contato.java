@@ -21,6 +21,10 @@ public class Contato {
         return numero;
     }
 
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -35,9 +39,7 @@ public class Contato {
 
     @Override
     public String toString() {
-        return "Contato{" +
-                "nome='" + nome + '\'' +
-                ", numero=" + numero +
-                '}';
+        return "{" + nome +
+                "," + numero + "}";
     }
 }
